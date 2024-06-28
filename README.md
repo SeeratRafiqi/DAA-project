@@ -7,7 +7,7 @@ IKRAM
 AMINAH
 
 
-## Algorithms Comparison
+### Algorithms Comparison
 
 Fraud detection is a critical issue in various industries, particularly in financial services where illegal activities can lead to significant financial losses. Machine learning algorithms have been increasingly applied to enhance the accuracy and efficiency of fraud detection systems. To determine their suitability for fraud detection, this report compares three machine learning algorithms: Random Forest, Decision Tree, and Support Vector Machine (SVM).
 
@@ -25,4 +25,4 @@ Computational Efficiency: Decision Tree is the fastest to train and predict, fol
 
 Robustness to Overfitting: Random Forest is the most robust to overfitting, followed by SVM with appropriate regularization. Decision Tree, on the other hand, is prone to overfitting, especially with complex trees.
 
-In conclusion, the choice of algorithm for fraud detection depends on specific requirements such as accuracy, interpretability, and computational efficiency. Random Forest emerges as the most suitable algorithm overall due to its high accuracy, robustness to overfitting, and scalability. Decision Tree is valuable for its interpretability and speed, making it a good choice for initial exploratory analysis. SVM offers high accuracy and is effective in high-dimensional spaces but requires careful parameter tuning and is less interpretable. By understanding the strengths and weaknesses of each algorithm, practitioners can make informed decisions based on their specific needs and constraints in fraud detection applications.
+the choice of algorithm for fraud detection depends on specific requirements such as accuracy, interpretability, and computational efficiency. Random Forest emerges as the most suitable algorithm overall due to its high accuracy, robustness to overfitting, and scalability. Decision Tree is valuable for its interpretability and speed, making it a good choice for initial exploratory analysis. SVM offers high accuracy and is effective in high-dimensional spaces but requires careful parameter tuning and is less interpretable. By understanding the strengths and weaknesses of each algorithm, practitioners can make informed decisions based on their specific needs and constraints in fraud detection applications.
