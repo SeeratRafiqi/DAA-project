@@ -1,0 +1,38 @@
+Flowchart Description for Fraud Detection Using a Random Forest Classifier
+Start
+
+The process begins with the initiation of the fraud detection workflow.
+Load Dataset
+
+The first step involves importing the dataset that contains details of transactions. This dataset will be used to train and evaluate the fraud detection model.
+Data Preprocessing
+
+In this step, any missing values in the dataset are handled appropriately. Categorical variables are converted to numerical formats to make them suitable for the machine learning model. Additionally, features may be normalized or standardized to ensure they are on a similar scale.
+Split Data
+
+The dataset is then split into two subsets: training data and testing data. The training data will be used to train the random forest model, while the testing data will be used to evaluate its performance.
+Address Class Imbalance
+
+Since fraud detection often involves imbalanced datasets (with many more legitimate transactions than fraudulent ones), this step applies various resampling techniques to address class imbalance. Techniques include:
+Oversampling: Increasing the number of instances of the minority (fraudulent) class.
+Undersampling: Reducing the number of instances of the majority (legitimate) class.
+SMOTE (Synthetic Minority Over-sampling Technique): Generating synthetic samples for the minority class to balance the dataset.
+Train Random Forest Classifier
+
+In this step, the random forest model is trained using the training dataset. The model learns to distinguish between legitimate and fraudulent transactions based on the features provided.
+Model Evaluation
+
+The trained model is then evaluated using the testing dataset. Various evaluation metrics such as accuracy, precision, recall, F1-score, and the area under the ROC curve (AUC-ROC) are calculated to assess the model's performance.
+Evaluate Original Data
+
+The performance of the model is assessed on the original, imbalanced dataset to understand how well it can detect fraud without any resampling.
+Evaluate Resampled Data
+
+Similarly, the performance of the model is evaluated on the resampled, balanced dataset. This step helps determine the impact of resampling techniques on the model's ability to detect fraud.
+Compare Results
+
+The evaluation metrics obtained from the original and resampled datasets are compared. This comparison helps in understanding the effectiveness of the resampling techniques in improving the model's performance in detecting fraudulent transactions.
+End
+
+The process concludes, providing a comprehensive understanding of the fraud detection model's performance and the impact of addressing class imbalance.
+This flowchart ensures a structured approach to detecting fraud, highlighting the importance of data preprocessing, handling class imbalance, and thoroughly evaluating model performance.
